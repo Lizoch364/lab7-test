@@ -9,7 +9,7 @@ pipeline {
     stages {
         stage('Checkout & Build') {
             steps {
-                git 'https://github.com/ВАШ_ЛОГИН/lab7.git'
+                git 'https://github.com/Lizoch364/lab7-test.git'
                 sh 'mvn clean compile'
             }
         }
